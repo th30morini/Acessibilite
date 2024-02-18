@@ -1,0 +1,136 @@
+body {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif; /* Use a suitable font */
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px; /* Adjusted height */
+    padding: 20px; /* Added padding */
+    background-color: #f8f8f8; /* Light background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+#logo {
+    height: 100px; /* Adjusted height */
+    width: auto;
+}
+#login {
+    margin-right: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333; /* Link color */
+    font-weight: bold;
+}
+
+#publications {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Increased margin */
+    width: 95vw;
+}
+
+.publication {
+    border: 1px solid #ddd; /* Light border color */
+    border-radius: 8px; /* Added border radius */
+    overflow: hidden; /* Hidden overflow for rounded corners */
+    width: 80%;
+    margin-bottom: 20px; /* Increased margin */
+    background-color: #fff; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.titre {
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img_pub {
+    height: 200px;
+    width: 50%;
+    overflow: hidden; /* Hidden overflow for rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_pub img {
+    width: auto;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.text_pub {
+    margin: 10px;
+    border-left: solid black 1px;
+}
+
+.text_pub p {
+    margin-left: 20px;
+}
+
+.comms {
+    margin: 0;
+    padding: 10px;
+    background-color: #eee; /* Light background color */
+}
+header nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer {
+    width: 100%;
+    height: 60px; /* Adjusted height */
+    border-top: 1px solid #ddd; /* Light border color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8; /* Light background color */
+}
+
+h2 {
+    margin: 0;
+    font-size: 16px;
+    color: #333; /* Text color */
+}
+.text_pub {
+    width: 50%;
+}
+main {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60%;
+}
